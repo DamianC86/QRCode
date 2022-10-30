@@ -1,0 +1,52 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    font-family: 'Outfit', sans-serif;
+    background-color: hsl(212, 45%, 89%);
+    display:flex;
+    align-items: center;
+    justify-content:center;
+    padding-top: 10px;
+
+}
+
+.card{
+    background-color: hsl(0, 0%, 100%);
+    display:flex;
+    align-items: center;
+    justify-content:center;
+    width:21em;
+    border: 1px solid lightgray;
+    box-shadow: 2px 2px 8px 4px #d3d3d3d1;
+    border-radius: 25px;
+  }
+
+  .cardBody{
+    text-align: center;
+    padding: 10px;
+  }
+
+  .cardImg{
+    margin-top: 10px;
+    text-align: center;
+    border-radius: 15px;
+  }
+
+  .negrita{
+    font-size: 20px;
+    padding-top: 15px;
+  }
+
+  .segundoP{
+    font-size: 15px;
+    color: hsl(220, 15%, 55%);
+    padding-bottom: 2em;
+  }
+
+  .losParrafos{
+    padding-left: 30px;
+    padding-right: 30px;
+  }
